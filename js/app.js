@@ -13,10 +13,10 @@
  *
  */
 // Build menu
-var numberOfSections = document.getElementsByClassName("landing__container");
+const numberOfSections = document.getElementsByClassName("landing__container");
 
 // make a loop to build li for navbar
-for (var i = 0; i < numberOfSections.length; i++) {
+for (let i = 0; i < numberOfSections.length; i++) {
   if (i == 0) {
     const htmlTextToAdd = `<a href="#section${
       i + 1
@@ -35,11 +35,11 @@ for (var i = 0; i < numberOfSections.length; i++) {
 
 // Set sections as active
 
-var btns = document.getElementsByClassName("btn");
+let btns = document.getElementsByClassName("btn");
 
-for (var i = 0; i < btns.length; i++) {
+for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function () {
-    var current = document.getElementsByClassName("active");
+    let current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
   });

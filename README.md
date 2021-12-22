@@ -1,13 +1,18 @@
 # Landing Page Project
 
-## Table of Contents
+# Description 
+A simple project about the DOM and  events . 
 
-* [Instructions](#instructions)
+# Tools used 
+Html , CSS and Javacript (ES6)
 
-## Instructions
+# List of Files 
+In the project folder we have CSS folder which includes css file , js folder which includes js file , index.html and README.md file . 
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+# Copywrites
+Udacity
 
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+# Resources 
+-W3schools 
+-developers.mozzila
+-stackoverflow
